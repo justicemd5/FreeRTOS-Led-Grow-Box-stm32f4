@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\DRIVER\touch /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\HAL /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\DRIVER /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\stm_lib\inc /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\cmsis_boot /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\RTOS /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\APP /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\CONFIG /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\cmsis /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\RTOS\portable\GCC /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\RTOS\portable /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\DRIVER\LCD /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\stm_lib /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\RTOS\portable\GCC\ARM_CM3 /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\COMMON /I..\..\..\..\..\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\RTOS\include">
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15159493a30">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="151596bfca0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\HAL\pit_stm32f072.c" lastModified="15147e3d3e0">
+      </source>
+      <source file="..\..\..\COMMON\datetime_bcd.c" lastModified="15147e9bf80">
+         <include file="..\..\..\COMMON\array.h"/>
+      </source>
+      <source file="..\..\..\HAL\systick_stm32f072.c" lastModified="15147ea2510">
+         <include file="..\..\..\HAL\pit.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\LCD\lcd_32.c" lastModified="151790da096">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd.h"/>
+         <include file="..\..\..\RTOS\include\semphr.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd_common.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\portable.h" lastModified="145d07fce40">
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\RTOS\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="1515948ad90">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\HAL\spi.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\spi_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1519cea9da9">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1519cea9d9c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\touch\touch.h" lastModified="15159660930">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\touch\touch.c" lastModified="1519cf13fa4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\DRIVER\touch\touch.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\DRIVER\speaker.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\peripheral_config.h" lastModified="15147f69890">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1515948b560">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="151596c0470">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1515948b560">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\mpu_wrappers.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15159645b80">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\leds.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\COMMON\tstring.h" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\leds.c" lastModified="145d07f0708">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\DRIVER\leds.h"/>
+         <include file="..\..\..\DRIVER\ds1820.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\croutine.h" lastModified="145d07f0320">
+         <include file="..\..\..\RTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\COMMON\tstring.c" lastModified="14f7e703900">
+         <include file="..\..\..\COMMON\tstring.h"/>
+         <include file="..\..\..\COMMON\mini-printf.h"/>
+         <include file="..\..\..\COMMON\tmath.h"/>
+      </source>
+      <source file="..\..\..\HAL\gpio.h" lastModified="15154415ae0">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+         <include file="..\..\..\CONFIG\gpio_config.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\peripheral.h" lastModified="151595f7980">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\CONFIG\peripheral_config.h"/>
+         <include file="..\..\..\HAL\gpio.h"/>
+         <include file="..\..\..\DRIVER\touch\touch.h"/>
+         <include file="..\..\..\CONFIG\power_config.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\peripheral.c" lastModified="15159660d18">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\DRIVER\peripheral.h"/>
+         <include file="..\..\..\CONFIG\peripheral_config.h"/>
+         <include file="..\..\..\DRIVER\display.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="15159499020">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\queue.h" lastModified="15159696c60">
+         <include file="..\..\..\RTOS\include\mpu_wrappers.h"/>
+         <include file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\LCD\lcd.h" lastModified="1515de99d50">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="1515948b560">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\eeprom.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\eeprom_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\COMMON\mini-printf.h" lastModified="14f7e703518">
+      </source>
+      <source file="..\..\..\DRIVER\datetime.c" lastModified="15147e7ac40">
+      </source>
+      <source file="..\..\..\DRIVER\eeprom.c" lastModified="14f7e703130">
+         <include file="..\..\..\DRIVER\eeprom.h"/>
+      </source>
+      <source file="..\..\..\COMMON\mini-printf.c" lastModified="14f7e703900">
+         <include file="..\..\..\COMMON\mini-printf.h"/>
+      </source>
+      <source file="..\..\..\RTOS\queue.c" lastModified="145d07f0af0">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\RTOS\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\HAL\ifm_stm32f072.c" lastModified="15147e9bf80">
+      </source>
+      <source file="..\..\..\DRIVER\timer.h" lastModified="151595f7980">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="1515a6f9990">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\timer.c" lastModified="1515953b5c8">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\DRIVER\timer.h"/>
+      </source>
+      <source file="..\..\..\APP\menu.h" lastModified="1519ceda1fd">
+      </source>
+      <source file="..\..\..\DRIVER\rs232.h" lastModified="14f7e703ce8">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\HAL\uart.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\APP\menu.c" lastModified="15159697c00">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\DRIVER\touch\touch.h"/>
+         <include file="..\..\..\APP\menu.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd.h"/>
+      </source>
+      <source file="..\..\..\settings.h" lastModified="151786a8a03">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+         <include file="..\..\..\COMMON\array.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\spi_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\HAL\rtc.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\COMMON\tdatetime.h"/>
+         <include file="..\..\..\CONFIG\rtc_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\COMMON\ringbuffer.h" lastModified="14f7e703518">
+      </source>
+      <source file="..\..\..\HAL\rtc_stm32f072.c" lastModified="15147f40850">
+         <include file="..\..\..\HAL\rtc.h"/>
+         <include file="..\..\..\DRIVER\timeout.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\FreeRTOS.h" lastModified="145d07f0708">
+         <include file="..\..\..\RTOS\include\projdefs.h"/>
+         <include file="..\..\..\FreeRTOSConfig.h"/>
+         <include file="..\..\..\RTOS\include\portable.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\rs232.c" lastModified="14f7e703130">
+         <include file="..\..\..\DRIVER\rs232.h"/>
+         <include file="..\..\..\DRIVER\peripheral.h"/>
+      </source>
+      <source file="..\..\..\COMMON\ringbuffer.c" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\ringbuffer.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="151596bfca0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\uart_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\COMMON\tmath.h" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+      </source>
+      <source file="..\..\..\HAL\gpio_stm32f072.c" lastModified="1515df67660">
+         <include file="..\..\..\HAL\gpio.h"/>
+         <include file="..\..\..\CONFIG\gpio_config.h"/>
+         <include file="..\..\..\CONFIG\uart_config.h"/>
+         <include file="..\..\..\CONFIG\spi_config.h"/>
+         <include file="..\..\..\CONFIG\i2c_config.h"/>
+         <include file="..\..\..\CONFIG\usb_config.h"/>
+         <include file="..\..\..\CONFIG\peripheral_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1519cea9d72">
+      </source>
+      <source file="..\..\..\COMMON\tmath.c" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\tmath.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\power.c" lastModified="15159621960">
+      </source>
+      <source file="..\..\..\COMMON\xtea.h" lastModified="14f7e7040d0">
+      </source>
+      <source file="..\..\..\RTOS\include\semphr.h" lastModified="145d07f0320">
+         <include file="..\..\..\RTOS\include\queue.h"/>
+      </source>
+      <source file="..\..\..\COMMON\xtea.c" lastModified="14f7e703ce8">
+         <include file="..\..\..\COMMON\xtea.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="151594778f8">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="1515948ad90">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1515948b560">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\COMMON\array.h" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+         <include file="..\..\..\COMMON\tdatetime.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15159645b80">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\COMMON\array.c" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\array.h"/>
+      </source>
+      <source file="..\..\..\RTOS\portable\MemMang\heap_2.c" lastModified="145d07f0708">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="145d07f0320">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm32f0xx_it.h" lastModified="15147e4a2e8">
+      </source>
+      <source file="..\..\..\HAL\uart.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\uart_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\Bitmaps\background120x160.c" lastModified="15154f23c20">
+      </source>
+      <source file="..\..\..\COMMON\error_codes.h" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\display.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\display_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\RGB.h" lastModified="15159639448">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\COMMON\ttypes.h" lastModified="14f7e703900">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1519cf70899">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\settings.h"/>
+         <include file="..\..\..\DRIVER\leds.h"/>
+         <include file="..\..\..\DRIVER\touch\touch.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd.h"/>
+         <include file="..\..\..\APP\menu.h"/>
+         <include file="..\..\..\DRIVER\speaker.h"/>
+         <include file="..\..\..\DRIVER\timer.h"/>
+         <include file="..\..\..\DRIVER\ds1820.h"/>
+         <include file="..\..\..\DRIVER\serial.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\fm_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\HAL\delay_stm32f072.c" lastModified="151597971f0">
+         <include file="..\..\..\HAL\delay.h"/>
+         <include file="..\..\..\stm32f0xx_it.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\speaker.h" lastModified="1515967da08">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="1515a6f91c0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\COMMON\filter.h" lastModified="14f7e703518">
+      </source>
+      <source file="..\..\..\COMMON\CException.h" lastModified="14f7e703900">
+      </source>
+      <source file="..\..\..\DRIVER\speaker.c" lastModified="15159696c60">
+      </source>
+      <source file="..\..\..\DRIVER\gui_button.h" lastModified="13d5ea3add0">
+         <include file="..\..\..\DRIVER\gui.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1515948b560">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\COMMON\filter.c" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\filter.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\power_config.h" lastModified="15147ec01a0">
+      </source>
+      <source file="..\..\..\COMMON\CException.c" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\CException.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\gui_button.c" lastModified="13d5ea3add0">
+         <include file="..\..\..\DRIVER\RGB.h"/>
+         <include file="..\..\..\DRIVER\gui_button.h"/>
+         <include file="..\..\..\DRIVER\Bitmaps\button_skin100x30.c"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="15159499020">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\RTOS\portable\GCC\ARM_CM3\portmacro.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\DRIVER\buzzer.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\buzzer_config.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\ds1820.h" lastModified="1515953b1e0">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\buzzer.c" lastModified="14f7e703130">
+         <include file="..\..\..\DRIVER\buzzer.h"/>
+         <include file="..\..\..\DRIVER\timeout.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15159477ce0">
+      </source>
+      <source file="..\..\..\DRIVER\ds1820.c" lastModified="145d07f0ed8">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\DRIVER\ds1820.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1515948ad90">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\rtc_config.h" lastModified="15147e73710">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\usb_config.h" lastModified="14f7e703130">
+      </source>
+      <source file="..\..\..\DRIVER\gui.h" lastModified="13d5ea3add0">
+         <include file="..\..\..\DRIVER\RGB.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="1515948ad90">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\gui.c" lastModified="15159696c60">
+      </source>
+      <source file="..\..\..\HAL\adc_stm32f072.c" lastModified="15147e049a0">
+      </source>
+      <source file="..\..\..\COMMON\md5.h" lastModified="14f7e703518">
+      </source>
+      <source file="..\..\..\HAL\uart_stm32f072.c" lastModified="15147e68b30">
+      </source>
+      <source file="..\..\..\CONFIG\pit_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\COMMON\md5.c" lastModified="14f7e703518">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+         <include file="..\..\..\COMMON\mini-printf.h"/>
+         <include file="..\..\..\COMMON\md5.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\adc.h" lastModified="1515966f390">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\HAL\spi_stm32f072.c" lastModified="15147e3d3e0">
+      </source>
+      <source file="..\..\..\DRIVER\adc.c" lastModified="1515966f390">
+         <include file="..\..\..\DRIVER\adc.h"/>
+      </source>
+      <source file="..\..\..\RTOS\portable\GCC\ARM_CM3\port.c" lastModified="145d07f0320">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\HAL\delay.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\LCD\lcd_common.h" lastModified="1515df45380">
+         <include file="..\..\..\RTOS\include\semphr.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\LCD\lcd_common.c" lastModified="1519ce80be7">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\queue.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd.h"/>
+         <include file="..\..\..\DRIVER\LCD\lcd_common.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15159493a30">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\RTOS\tasks.c" lastModified="145d07f0ed8">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\task.h"/>
+         <include file="..\..\..\RTOS\include\StackMacros.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\fm.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\fm_config.h"/>
+         <include file="..\..\..\COMMON\error_codes.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="1515948b560">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\gpio_config.h" lastModified="151544060e0">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="1515948ad90">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\fm.c" lastModified="15154209440">
+         <include file="..\..\..\DRIVER\fm.h"/>
+         <include file="..\..\..\HAL\spi.h"/>
+      </source>
+      <source file="..\..\..\HAL\pit.h" lastModified="14f7e703130">
+         <include file="..\..\..\CONFIG\pit_config.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\task.h" lastModified="145d07f0320">
+         <include file="..\..\..\RTOS\include\portable.h"/>
+         <include file="..\..\..\RTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\Bitmaps\bmp.c" lastModified="12cc6703070">
+      </source>
+      <source file="..\..\..\CONFIG\buzzer_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSConfig.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\RTOS\include\projdefs.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\CONFIG\display_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\Bitmaps\button_skin100x30.c" lastModified="13d5ea3add0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1515948ad90">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1515a70e980">
+      </source>
+      <source file="..\..\..\HAL\i2c_stm32f072.c" lastModified="15147e9bf80">
+      </source>
+      <source file="..\..\..\RTOS\include\list.h" lastModified="145d07f0320">
+      </source>
+      <source file="..\..\..\COMMON\tdatetime.h" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\ttypes.h"/>
+      </source>
+      <source file="..\..\..\COMMON\tdatetime.c" lastModified="14f7e703130">
+         <include file="..\..\..\COMMON\tdatetime.h"/>
+         <include file="..\..\..\COMMON\tstring.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="15159494200">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="1519ceaa164">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\RTOS\list.c" lastModified="145d07f0708">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\RTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="15159494200">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\serial.h" lastModified="1515953b1e0">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15159477ce0">
+      </source>
+      <source file="..\..\..\DRIVER\timeout.h" lastModified="14f7e703518">
+      </source>
+      <source file="..\..\..\DRIVER\serial.c" lastModified="145d07f0320">
+         <include file="..\..\..\RTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\DRIVER\serial.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\i2c_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="145d07f0320">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\DRIVER\timeout.c" lastModified="14f7e703130">
+         <include file="..\..\..\DRIVER\timeout.h"/>
+         <include file="..\..\..\HAL\pit.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1519cea9d8c">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="151596c0470">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\CONFIG\eeprom_config.h" lastModified="14f7e703130">
+         <include file="..\..\..\settings.h"/>
+      </source>
+      <source file="..\..\..\RTOS\include\StackMacros.h" lastModified="145d07f0320">
+      </source>
+   </includePath>
+</dependencies>

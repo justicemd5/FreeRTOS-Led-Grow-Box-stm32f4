@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+</fastViewData>
+<perspectiveBar/>
+<page focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
+</input>
+</editor>
+<editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
+<subPage horizontalPosition="0" selectedItemId="439" subPageIndex="2" verticalPosition="0"/>
+</input>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" partName="timer.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/timer.c" title="timer.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/timer.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/timer.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="579" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.h" partName="timer.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/timer.h" title="timer.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/timer.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/timer.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="363" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_tim.c" partName="stm32f10x_tim.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/src/stm32f10x_tim.c" title="stm32f10x_tim.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/src/stm32f10x_tim.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/stm_lib/src/stm32f10x_tim.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="26953" selectionTopPixel="10830"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="serial.h" partName="serial.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/serial.h" title="serial.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/serial.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/serial.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="64" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="peripheral.h" partName="peripheral.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/peripheral.h" title="peripheral.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/peripheral.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/peripheral.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="103" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" partName="stm32f10x.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/stm32f10x.h" title="stm32f10x.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/stm32f10x.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/cmsis_boot/stm32f10x.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="589" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_tim.h" partName="stm32f10x_tim.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/inc/stm32f10x_tim.h" title="stm32f10x_tim.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/inc/stm32f10x_tim.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/stm_lib/inc/stm32f10x_tim.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="5271" selectionTopPixel="1425"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="touch.h" partName="touch.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/touch/touch.h" title="touch.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/touch/touch.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/touch/touch.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="622" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="touch.c" partName="touch.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/touch/touch.c" title="touch.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/touch/touch.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/touch/touch.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4754" selectionTopPixel="3473"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="power.c" partName="power.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/CONFIG/power.c" title="power.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/CONFIG/power.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/CONFIG/power.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="gui.c" partName="gui.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/gui.c" title="gui.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/gui.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/gui.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="3351" selectionOffset="0" selectionTopPixel="1357"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="semphr.h" partName="semphr.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/include/semphr.h" title="semphr.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/include/semphr.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/RTOS/include/semphr.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3018" selectionTopPixel="360"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="RGB.h" partName="RGB.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/RGB.h" title="RGB.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/RGB.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/RGB.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="77" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="adc.c" partName="adc.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/adc.c" title="adc.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/adc.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/adc.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="287" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="portmacro.h" partName="portmacro.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/portable/GCC/ARM_CM3/portmacro.h" title="portmacro.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/portable/GCC/ARM_CM3/portmacro.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/RTOS/portable/GCC/ARM_CM3/portmacro.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="3748" selectionTopPixel="1559"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="peripheral.c" partName="peripheral.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/peripheral.c" title="peripheral.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/peripheral.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/peripheral.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="4294" selectionTopPixel="2474"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.h" partName="stm32f10x_rcc.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/inc/stm32f10x_rcc.h" title="stm32f10x_rcc.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/stm_lib/inc/stm32f10x_rcc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/stm_lib/inc/stm32f10x_rcc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="18442" selectionTopPixel="6255"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="adc.h" partName="adc.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/adc.h" title="adc.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/adc.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/adc.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="327" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="speaker.c" partName="speaker.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/speaker.c" title="speaker.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/speaker.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/speaker.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="796" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="speaker.h" partName="speaker.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/speaker.h" title="speaker.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/speaker.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/speaker.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="386" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="queue.h" partName="queue.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/include/queue.h" title="queue.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/include/queue.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/RTOS/include/queue.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3394" selectionTopPixel="675"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm3.h" partName="core_cm3.h" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis/core_cm3.h" title="core_cm3.h" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis/core_cm3.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/cmsis/core_cm3.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="96791" selectionTopPixel="22935"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="serial.c" partName="serial.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/serial.c" title="serial.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/serial.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/serial.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="117" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="settings.h" partName="settings.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/settings.h" title="settings.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/settings.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/settings.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1032" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="syscalls.c" partName="syscalls.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/syscalls/syscalls.c" title="syscalls.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/syscalls/syscalls.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/syscalls/syscalls.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1825" selectionTopPixel="1072"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="port.c" partName="port.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/portable/GCC/ARM_CM3/port.c" title="port.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/RTOS/portable/GCC/ARM_CM3/port.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/RTOS/portable/GCC/ARM_CM3/port.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5031" selectionTopPixel="960"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="delay_stm32f072.c" partName="delay_stm32f072.c" path="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/HAL/delay_stm32f072.c" title="delay_stm32f072.c" tooltip="G:/Master.LGB/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/HAL/delay_stm32f072.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/HAL/delay_stm32f072.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="273" selectionOffset="2556" selectionTopPixel="2077"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" partName="FreeRTOSConfig.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/FreeRTOSConfig.h" title="FreeRTOSConfig.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/FreeRTOSConfig.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/FreeRTOSConfig.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2637" selectionTopPixel="840"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd_32.c" partName="lcd_32.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_32.c" title="lcd_32.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_32.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/LCD/lcd_32.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21687" selectionTopPixel="6104"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd.h" partName="lcd.h" path="G:/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd.h" title="lcd.h" tooltip="G:/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/LCD/lcd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="72" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd_common.h" partName="lcd_common.h" path="G:/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_common.h" title="lcd_common.h" tooltip="G:/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_common.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/LCD/lcd_common.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="lcd_common.c" partName="lcd_common.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_common.c" title="lcd_common.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/DRIVER/LCD/lcd_common.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/DRIVER/LCD/lcd_common.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1930" selectionTopPixel="1575"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="menu.c" partName="menu.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/APP/menu.c" title="menu.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/APP/menu.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/APP/menu.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="4699" selectionTopPixel="2925"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="stm32_flash.ld" partName="stm32_flash.ld" title="stm32_flash.ld" tooltip="g:\master.lgb\master\grow box\code\stm32f1_64pin_led_grow_box_rtos\stm32_freertos_example-master\stm32_flash.ld" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/g:/master.lgb/master/grow%20box/code/stm32f1_64pin_led_grow_box_rtos/stm32_freertos_example-master/stm32_flash.ld"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="558" selectionTopPixel="929"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="core_cmInstr.h" partName="core_cmInstr.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis/core_cmInstr.h" title="core_cmInstr.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis/core_cmInstr.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/cmsis/core_cmInstr.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_conf.h" partName="stm32f10x_conf.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/stm32f10x_conf.h" title="stm32f10x_conf.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/stm32f10x_conf.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/cmsis_boot/stm32f10x_conf.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1556" selectionTopPixel="254"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" partName="startup_stm32f10x_md.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/startup/startup_stm32f10x_md.c" title="startup_stm32f10x_md.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/cmsis_boot/startup/startup_stm32f10x_md.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11334" selectionTopPixel="2625"/>
+</editor>
+<editor id="org.coocox.builder.ui.editors.ConfigEditor" name="" partName="Configuration" title="Configuration" tooltip="" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="2" verticalPosition="0"/>
+</input>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="arm-gcc-link.ld" partName="arm-gcc-link.ld" title="arm-gcc-link.ld" tooltip="C:\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\arm-gcc-link.ld" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/MP/Google%20Drive/Master/Grow%20box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/arm-gcc-link.ld"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="678" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/main.c" title="main.c" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1986" selectionTopPixel="1249"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="menu.h" partName="menu.h" path="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/APP/menu.h" title="menu.h" tooltip="C:/Users/MP/Google Drive/Master/Grow box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/APP/menu.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F1_64PIN/APP/menu.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="628" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<expanded>
+<element path="/STM32F1_64PIN"/>
+<element path="/STM32F1_64PIN/cmsis_boot"/>
+<element path="/STM32F1_64PIN/cmsis_boot/startup"/>
+</expanded>
+<selection>
+<element path="/STM32F1_64PIN/main.c"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.component.ui.ComponentView" partName="Components">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.RegisterView" partName="Registers">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+</viewState>
+</view>
+<view id="org.eclipse.cdt.ui.typeHierarchy" partName="Type Hierarchy">
+<viewState filterFields="false" filterNonPublic="false" filterStatic="false" showFilesInLabels="false" showInheritedMembers="false" splitterWeight1="350" splitterWeight2="650" viewOrientation="0"/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.coocox.coassistant.view.CoAssistantView_debug" partName="Peripherals">
+<viewState horizontalPosition="0" verticalPosition="10">
+<selection>&#x0A;<element name="NVIC"/>
+</selection>
+<registerValues baseAddress="Base Address: 0xE000E000" description="Description:  Nested Vectored Interrupt&#x0A;      Controller"/>
+</viewState>
+</view>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view" partName="Disassembly">
+<viewState disassembly.syncActiveContext="true" disassembly.trackExpression="false"/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState/>
+</view>
+<view id="org.coocox.component.ui.Help" partName="Help">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.coocox.component.ui.ComponentView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.eclipse.cdt.ui.typeHierarchy"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e57b5e">
+<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="Components"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e57b5e">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@aff1d6" ratio="0.6516854" ratioLeft="638" ratioRight="341" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e57b5e">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.cdt.ui.typeHierarchy" label="Type Hierarchy"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.21966527" ratioLeft="420" ratioRight="1492" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e57b5e"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@c9665b" ratio="0.81212723" ratioLeft="817" ratioRight="189" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4490835" ratioLeft="441" ratioRight="541" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@660fc" ratio="0.36965376" ratioLeft="363" ratioRight="619" relationship="4" relative="org.eclipse.ui.internal.ViewStack@e57b5e">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFolder"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_menu_item_id id="org.eclipse.ui.file.save"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
+<hide_menu_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openFile"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAs"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.projectMenu"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.flashMenu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.debug"/>
+<hide_menu_item_id id="org.coocox.builder.ui.showHelpViewAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_menu_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.build"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_menu_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.TargetManageAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newProject"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.save"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideFlashEraseAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.debug"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.coocox.coassistant.view.CoAssistantView_debug"/>
+<view id="org.eclipse.debug.ui.RegisterView"/>
+<view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@2659a1">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@2659a1">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4ce898" ratio="0.7814499" ratioLeft="733" ratioRight="205" relationship="4" relative="org.eclipse.ui.internal.ViewStack@2659a1">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1282571" ratio="0.49756098" ratioLeft="102" ratioRight="103" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4ce898">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@78cbab" ratio="0.5" ratioLeft="51" ratioRight="51" relationship="4" relative="org.eclipse.ui.internal.ViewStack@4ce898">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b24650" ratio="0.7176532" ratioLeft="1370" ratioRight="539" relationship="2" relative="org.eclipse.ui.internal.ViewStack@2659a1">&#x0A;<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">&#x0A;<page content="org.coocox.coassistant.view.CoAssistantView_debug" label="Peripherals"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="Registers"/>
+<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.14981666" ratioLeft="286" ratioRight="1623" relationship="2" relative="org.eclipse.ui.internal.ViewStack@2659a1"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/main.c"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/g:/master.lgb/master/grow%20box/code/stm32f1_64pin_led_grow_box_rtos/stm32_freertos_example-master/stm32_flash.ld"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/DRIVER/peripheral.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/DRIVER/LCD/lcd_32.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="2" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/Users/MP/Google%20Drive/Master/Grow%20box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/arm-gcc-link.ld"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/APP/menu.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/DRIVER/LCD/lcd_common.c"/>
+<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
+<subPage horizontalPosition="0" selectedItemId="439" subPageIndex="2" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
+<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="2" verticalPosition="0"/>
+</editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/APP/menu.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/FreeRTOSConfig.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F1_64PIN/DRIVER/touch/touch.c"/>
+</editors>
+<item historyLabel="stm32_flash.ld" index="1">
+<position info="not_deleted" x="1090" y="0"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="arm-gcc-link.ld" index="6">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="stm32_flash.ld" index="1">
+<position info="not_deleted" x="558" y="0"/>
+</item>
+<item historyLabel="startup_stm32f10x_md.c" index="4">
+<position info="not_deleted" x="11334" y="0"/>
+</item>
+<item historyLabel="Configuration" index="5"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="2726" y="20"/>
+</item>
+<item historyLabel="peripheral.c" index="2">
+<position info="not_deleted" x="4294" y="8"/>
+</item>
+<item historyLabel="lcd_32.c" index="3">
+<position info="not_deleted" x="15398" y="8"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="lcd_32.c" index="3">
+<position info="not_deleted" x="21687" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="2653" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="389" y="19"/>
+</item>
+<item historyLabel="lcd_common.c" index="9">
+<position info="not_deleted" x="189" y="0"/>
+</item>
+<item historyLabel="lcd_common.c" index="9">
+<position info="not_deleted" x="1930" y="0"/>
+</item>
+<item historyLabel="Repository" index="10"/>
+<item historyLabel="Configuration" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Configuration" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Repository" index="10"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2787" y="0"/>
+</item>
+<item historyLabel="Configuration" index="11"/>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2794" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="4205" y="13"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="4281" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="3042" y="11"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2794" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="4205" y="13"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="4252" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="627" y="0"/>
+</item>
+<item historyLabel="menu.h" index="12">
+<position info="not_deleted" x="617" y="9"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2794" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2806" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2315" y="4"/>
+</item>
+<item historyLabel="menu.h" index="12">
+<position info="not_deleted" x="628" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2315" y="4"/>
+</item>
+<item historyLabel="FreeRTOSConfig.h" index="13">
+<position info="not_deleted" x="2637" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="3103" y="30"/>
+</item>
+<item historyLabel="touch.c" index="14">
+<position info="not_deleted" x="4982" y="14"/>
+</item>
+<item historyLabel="touch.c" index="14">
+<position info="not_deleted" x="4875" y="0"/>
+</item>
+<item historyLabel="menu.c" index="8">
+<position info="not_deleted" x="4699" y="10"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="2836" y="0"/>
+</item>
+<item historyLabel="touch.c" index="14">
+<position info="not_deleted" x="4754" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="3320" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1193" y="13"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="1167" y="17"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="3035" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="7">
+<position info="not_deleted" x="1094" y="16"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="menu.h" tooltip="STM32F1_64PIN/APP/menu.h">
+<persistable path="/STM32F1_64PIN/APP/menu.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="STM32F1_64PIN/main.c">
+<persistable path="/STM32F1_64PIN/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="arm-gcc-link.ld" tooltip="C:\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\arm-gcc-link.ld">
+<persistable uri="file:/C:/Users/MP/Google%20Drive/Master/Grow%20box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/arm-gcc-link.ld"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" tooltip="STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c">
+<persistable path="/STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_conf.h" tooltip="STM32F1_64PIN/cmsis_boot/stm32f10x_conf.h">
+<persistable path="/STM32F1_64PIN/cmsis_boot/stm32f10x_conf.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cmInstr.h" tooltip="STM32F1_64PIN/cmsis/core_cmInstr.h">
+<persistable path="/STM32F1_64PIN/cmsis/core_cmInstr.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="stm32_flash.ld" tooltip="g:\master.lgb\master\grow box\code\stm32f1_64pin_led_grow_box_rtos\stm32_freertos_example-master\stm32_flash.ld">
+<persistable uri="file:/g:/master.lgb/master/grow%20box/code/stm32f1_64pin_led_grow_box_rtos/stm32_freertos_example-master/stm32_flash.ld"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="crt0_STM32x.c" tooltip="STM32F1_64PIN/crt0_STM32x.c">
+<persistable path="/STM32F1_64PIN/crt0_STM32x.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="LED_GROW_BOX_STM32_F1_V3_MINI/main.c">
+<persistable path="/LED_GROW_BOX_STM32_F1_V3_MINI/main.c"/>
+</file>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lcd_32.c" tooltip="STM32F1_64PIN/DRIVER/LCD/lcd_32.c">
+<persistable path="/STM32F1_64PIN/DRIVER/LCD/lcd_32.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="task.h" tooltip="STM32F1_64PIN/RTOS/include/task.h">
+<persistable path="/STM32F1_64PIN/RTOS/include/task.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FreeRTOSConfig.h" tooltip="STM32F1_64PIN/FreeRTOSConfig.h">
+<persistable path="/STM32F1_64PIN/FreeRTOSConfig.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="arm-gcc-link.ld" tooltip="C:\Users\MP\Google Drive\Master\Grow box\Code\STM32F1_64PIN_LED_GROW_BOX_RTOS\arm-gcc-link.ld">
+<persistable uri="file:/C:/Users/MP/Google%20Drive/Master/Grow%20box/Code/STM32F1_64PIN_LED_GROW_BOX_RTOS/arm-gcc-link.ld"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f10x_md.c" tooltip="STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c">
+<persistable path="/STM32F1_64PIN/cmsis_boot/startup/startup_stm32f10x_md.c"/>
+</file>
+</mruList>
+</workbench>

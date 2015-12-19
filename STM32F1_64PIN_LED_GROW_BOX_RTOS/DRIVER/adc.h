@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////////////////////////
+// Copyright (C) 2007, Matthew Pratt, All Rights Reserved.
+//
+// Authors: Matthew Pratt
+//
+// Date:  8 Jun 2012
+//
+///////////////////////////////////////////////////////////////////////////////
+
+#ifndef ADC_H
+#define ADC_H
+
+#include "settings.h"
+
+void adc_init (void);
+unsigned short read_adc(int channel);
+
+#endif
